@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "scanner",
+  "version": "${version}",
+  "name": "Scanner Client",
+  "description": "Détection de stockage et de générateurs avec rendu personnalisable.",
+  "environment": "client",
+  "entrypoints": { "client": ["fr.exemple.scanner.ScannerClient"] },
+  "depends": { "fabricloader": ">=0.19.1", "minecraft": "~26.2", "java": ">=25", "fabric-api": "*" }
+}
